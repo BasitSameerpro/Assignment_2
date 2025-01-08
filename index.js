@@ -4,7 +4,7 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const User = require('../model/userModel');
+const User = require('./model/userModel');
 
 const PORT = 7000;
 
